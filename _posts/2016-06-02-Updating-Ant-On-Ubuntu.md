@@ -3,12 +3,13 @@ layout: post
 title: Updating Ant On Ubuntu
 ---
 
-1. Get source archive:
 
- From: http://ant.apache.org/srcdownload.cgi
+### 1. Get source archive
+
+ From: [ant download page](http://ant.apache.org/srcdownload.cgi)
  
 
-2. Extract contents of the source archive: (assuming a tar.gz archive and version 1.9.7)
+### 2. Extract contents of the source archive (assuming a tar.gz archive and version 1.9.7)
 
  {% highlight bash %}
  > tar xvf apache-ant-1.9.7-src.tar.gz
@@ -16,7 +17,7 @@ title: Updating Ant On Ubuntu
  {% endhighlight %}
 
 
-3. Fetch dependencies:
+### 3. Fetch dependencies
 
  (This assumes you are updating and have an old version of ant installed).
 
@@ -24,17 +25,17 @@ title: Updating Ant On Ubuntu
  > ant -f fetch.xml -Ddest=user
  {% endhighlight %}
 
- Details: http://ant.apache.org/manual/install.html#optionalTasks
+ [more details here]( http://ant.apache.org/manual/install.html#optionalTasks)
 
 
-4. Build:
+### 4. Build
 
  {% highlight bash %}
  > sh build.sh -Ddist.dir=bin dist
  {% endhighlight %}
 
 
-5. Install:
+### 5. Install
 
  (Uninstall previous version of ant if any).
 
@@ -45,7 +46,7 @@ title: Updating Ant On Ubuntu
  {% endhighlight %}
  
 
-6. Setup Environment: (assuming bash)
+### 6. Setup Environment (assuming bash)
 
  {% highlight bash %}
  > export ANT_HOME=/usr/local/ant
@@ -54,7 +55,7 @@ title: Updating Ant On Ubuntu
 
  Also, setup JAVA_HOME if not already done.
 
-7. Check:
+### 7. Check
  
  Open a new terminal.
 
