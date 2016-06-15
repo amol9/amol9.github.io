@@ -19,8 +19,6 @@ title: Updating Ant On Ubuntu
 
 ### 3. Fetch dependencies
 
- (This assumes you are updating and have an old version of ant installed).
-
  {% highlight bash %}
  > ant -f fetch.xml -Ddest=user
  {% endhighlight %}
@@ -37,7 +35,7 @@ title: Updating Ant On Ubuntu
 
 ### 5. Install
 
- (Uninstall previous version of ant if any).
+ Uninstall the previous version of ant.
 
  {% highlight bash %}
  > sudo mkdir /usr/local/ant
