@@ -21,3 +21,8 @@ You might like to check out some of my software:
 
 Thanks for visiting !
 
+<br>
+
+Theme powered by [poole/lanyon](https://github.com/poole/lanyon).
+{: style="color:#aaaaaa; font-size:80%"}
+
