@@ -1,15 +1,23 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-Some information about you!
+<br>
+Hi there !!!
 
-### More Information
+I am just a programmer programming programmable problems.
 
-A place to include any other types of information that you'd like to include about yourself.
+You might like to check out some of my software:
 
-### Contact me
+- [wallp]({{ site.author.github }}/wallp) : a wallpaper selector / generator
+- [imagebot]({{ site.author.github }}/imagebot) : a crawler that scrapes images from websites
+- [giraf]({{ site.author.github }}/giraf) : a utility and a library for accessing imgur.com
+- [vlc-ctrl]({{ site.author.github }}/vlc-ctrl) : cli for controlling vlc media player
+- [redcmd]({{ site.author.github }}/redcmd) : a framework for handling cli with support for autocomplete
+- [mayloop]({{ site.author.github }}/mayloop) : a framework for creating async io servers for arbitrary protocols
+- [matasano]({{ site.author.github }}/matasano) : my solutions to matasano cryptographic challenges
 
-[email@domain.com](mailto:email@domain.com)
+
+Thanks for visiting !
+
