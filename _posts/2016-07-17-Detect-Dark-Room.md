@@ -22,6 +22,7 @@ e.g.
 {% gist amol9/89579987949bfb0c651e roomdark.sh %}
 {: style="font-size:0; /* to avoid the extra true rendered */"}
 
+
 What it does:
 
  1. Takes a snapshot using webcam.
