@@ -30,7 +30,6 @@ version:             1.0.0
 gems:
  - jekyll-paginate
  - jekyll-gist
- - jekyll_github_sample
 
 kramdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
