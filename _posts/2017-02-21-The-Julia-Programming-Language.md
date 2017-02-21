@@ -10,7 +10,7 @@ I think I first noted the language in passing when scrolling through a drop down
 
 One day, I googled it. Then, I decided to try it. I read through the docs and installed the language.
 
-Some of the features of julia are very impressive. It has a natural syntax for typing polynomial equations. E.g. X^2 + 2x + 2, etc. You can totally skip the "." Or "x" between the co-efficient and the variable name.
+Some of the features of julia are very impressive. It has a natural syntax for typing polynomial equations. E.g. x^2 + 2x + 2, etc. You can totally skip the "." Or "x" between the co-efficient and the variable name.
 
 It has an interactive with a feature which would have prevented many headaches for me in the past when dealing with interactive shells of other languages. When you use the "up" arrow key to access previous code, it brings up an entire multi line code block if you typed one. And you can then scroll up and down in it to edit it.
 
@@ -26,4 +26,4 @@ But, the real power is in the built in support for asynchronous and parallel pro
 
 This feels like power. I wanted to try it out.
 
-So, I wrote up a small program to asynchronously do multiple http requests to get me some data. It took some time to wrap my logic into the constructs provided by julia, but, it did not take many lines of code. I'll write about it in my next post.
+So, I wrote up a small program to asynchronously do multiple http requests to get me some data. It took some time to wrap my logic into the constructs provided by julia, but, it did not take many lines of code. I'll write about it in my [next post](/2017/02/21/Making-Asynchronous-Http-Requests-With-Julia/).

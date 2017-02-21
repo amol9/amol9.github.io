@@ -4,7 +4,7 @@ title: Making Asynchronous Http Requests With Julia
 tags: julia, http, asynchronous
 ---
 
-Like I wrote in my previous post, julia has some powerful parallel computing capabilities built right into the language. So, I decided to give one of them a run.
+Like I wrote in my [previous post](/2017/02/21/The-Julia-Programming-Language/), julia has some powerful parallel computing capabilities built right into the language. So, I decided to give one of them a run.
 
 I used @async and @sync to asynchronously do http requests and wait for all of them to complete respectively.
 
