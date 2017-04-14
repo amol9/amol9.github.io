@@ -30,6 +30,8 @@ While #1 and #2, succeed, #3 fails with seg fault. Thus, proving that auto_ptr c
 
 -
 
+Code:
+
 {% highlight cpp %}
 #include <iostream>
 #include <cstdlib>
