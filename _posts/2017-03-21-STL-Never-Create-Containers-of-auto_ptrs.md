@@ -111,15 +111,17 @@ void print_s(shared_ptr<int> (&a)[SIZE]) {
 
 Output:
 
-  unsorted:
-  83 86 77 15 93 35 86 92 49 21 62 27 90 59 63 26 40 26 72 36 11 68 67 29 82 30 62 23 67 35 
-  sorted shared_ptr array using std::sort:
-  11 15 21 23 26 26 27 29 30 35 35 36 40 49 59 62 62 63 67 67 68 72 77 82 83 86 86 90 92 93 
-  sorted auto_ptr array using qsort:
-  11 15 21 23 26 26 27 29 30 35 35 36 40 49 59 62 62 63 67 67 68 72 77 82 83 86 86 90 92 93 
-  sorted auto_ptr array using std::sort:
-  Segmentation fault (core dumped)
-  
+```
+unsorted:
+83 86 77 15 93 35 86 92 49 21 62 27 90 59 63 26 40 26 72 36 11 68 67 29 82 30 62 23 67 35 
+sorted shared_ptr array using std::sort:
+11 15 21 23 26 26 27 29 30 35 35 36 40 49 59 62 62 63 67 67 68 72 77 82 83 86 86 90 92 93 
+sorted auto_ptr array using qsort:
+11 15 21 23 26 26 27 29 30 35 35 36 40 49 59 62 62 63 67 67 68 72 77 82 83 86 86 90 92 93 
+sorted auto_ptr array using std::sort:
+Segmentation fault (core dumped)
+```
+
 -
 
 The code needs to be compiled with:
