@@ -31,6 +31,7 @@ I ran the job for about 6 months. Then, I generated some graphs using the data. 
 6. The smaller this number, more apart they are in this graph. (This was programmed in the graph generation logic).
 7. This view was as I saw it on facebook. So, I could only track posts that were accessible to me.
 8. It only involves people from my friend list who interacted with each other in the given time window.
+9. The graph generation library, graphviz, determined the positioning of the nodes given the weighted edges.
 
 Here's the cropped sub-graph mentioned in #2:
 
