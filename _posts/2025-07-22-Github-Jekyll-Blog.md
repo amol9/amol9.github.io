@@ -13,3 +13,5 @@ Next, I looked at the Jekyll collections config option. But, quickly saw that, f
 There was no other option, but, to go with the single directory approach. There may be many posts there, hundreds, or even thousands. This is the way to manage it.
 
 I have pushed the post in the simple arrangement now, in the ‘_posts’ dir. Upon refreshing the blog page, it does not show. Something weird shows. A page with today’s date repeated three times, without a blog title and then the old posts are shown.
+
+![](https://ibb.co/Zp9LVYW5)
